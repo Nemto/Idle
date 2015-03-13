@@ -56,7 +56,7 @@ namespace Idle
         {
             while(!isClosing)
             {
-                this.InvokeEx(f => f.label1.Text = InputTime() + " s");
+                this.InvokeEx(f => f.label1.Text = InputTime() + " ms");
                 Thread.Sleep(10);
             }
         }
